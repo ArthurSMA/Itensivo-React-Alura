@@ -1,13 +1,13 @@
 import config from "../config.json";
 import styled from "styled-components";
-import { cssreset } from "../src/components/cssreset";
+import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 
 function HomePage() {
   return (
     <>
-      <cssreset />
+      <CSSReset />
       <div
         style={{
           display: "flex",
